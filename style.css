@@ -1,0 +1,62 @@
+body{
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container
+{
+    position: relative;
+    background-image:linear-gradient(#fafafa,#568a75);
+    background-image: url(jake-blucker-c6miNI_WdZ4-unsplash.jpg);
+    height: 48rem;
+    width: 100%;
+    display: block;
+    left:0px;
+
+}
+.heder
+{
+    height: 60px;
+    width:100%;
+    background-image:linear-gradient(rgb(227, 154, 236),rgb(13, 13, 61)) ;
+    border-bottom:2px solid rgb(94, 17, 167) ;
+    padding-top: 50px;
+    font-size: 40px;
+    color:rgb(218, 66, 92);
+    font-weight: 800;
+    text-shadow: #ec0f1a;
+}
+
+.btn{
+    position:absolute;
+    top:45px;
+    right:20px;
+}
+
+button{
+    color:black;
+    height:35px;
+    width:100px;
+    border-radius: 20px;
+    background-image: linear-gradient(#a3377f,#ee1947)
+}
+#data
+{
+    width:99%;
+    height:450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;
+}
+.table
+{
+    width:800px;
+}
+table{
+    color:rgb(8, 8, 8);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+}
+table tr :hover{
+    background-color:#6699ff;
+}
